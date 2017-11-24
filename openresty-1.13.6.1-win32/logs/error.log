@@ -608,3 +608,38 @@
 2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
 2017/11/24 17:46:55 [error] 3264#11212: *1 CreateFile() "./html/sign/getSignTime.htm" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /sign/getSignTime.htm?date=Fri%20Nov%2024%202017%2017:46:55%20GMT+0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&callback=jQuery819866&_=1511516815150 HTTP/1.1", host: "localhost", referrer: "http://localhost/jd"
 2017/11/24 17:46:55 [error] 3264#11212: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/jd"
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 18:09:00 [alert] 7440#7448: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 18:09:00 [notice] 7440#7448: signal process started
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 18:09:03 [alert] 5708#10956: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 18:09:04 [alert] 10896#10868: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 18:09:37 [error] 10896#5284: *2 CreateFile() "./html/portal/getUserInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /portal/getUserInfo HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il"
+2017/11/24 18:09:37 [error] 10896#5284: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
+2017/11/24 18:09:45 [error] 10896#5284: *23 CreateFile() "./html/portal/getUserInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /portal/getUserInfo HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
+2017/11/24 18:09:45 [error] 10896#5284: *32 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
+2017/11/24 18:10:04 [error] 10896#5284: *61 CreateFile() "./html/portal/getUserInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /portal/getUserInfo HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
+2017/11/24 18:10:04 [error] 10896#5284: *61 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
+2017/11/24 18:10:20 [error] 10896#5284: *61 CreateFile() "./html/portal/getUserInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /portal/getUserInfo HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
