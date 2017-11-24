@@ -1,0 +1,610 @@
+2017/11/24 16:27:17 [error] 8760#8024: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/11/24 16:38:38 [emerg] 8676#5560: unexpected end of file, expecting "}" in ./conf/nginx.conf:116
+2017/11/24 16:38:58 [emerg] 5140#6788: CreateFile() "./conf/lua/example.conf" failed (3: The system cannot find the path specified) in ./conf/nginx.conf:38
+2017/11/24 16:39:24 [notice] 10204#7432: signal process started
+2017/11/24 16:40:12 [error] 8516#9944: *1 CreateFile() "./html/asfas" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /asfas HTTP/1.1", host: "localhost"
+2017/11/24 16:40:18 [error] 8516#9944: *1 CreateFile() "./html/503" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /503 HTTP/1.1", host: "localhost"
+2017/11/24 16:40:23 [error] 8516#9944: *1 CreateFile() "./html/503.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /503.html HTTP/1.1", host: "localhost"
+2017/11/24 16:41:14 [emerg] 9284#9540: CreateFile() "./conf/lua/example/example.conf" failed (3: The system cannot find the path specified) in ./conf/nginx.conf:40
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:41:54 [alert] 3340#7308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:41:54 [notice] 3340#7308: signal process started
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:42:01 [alert] 5236#6440: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:42:01 [alert] 8656#6076: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:42:01 [error] 8656#9640: init_worker_by_lua_file error: cannot open ./../lua/example/init_worker.lua: No such file or directory
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:42:52 [alert] 4560#4836: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:42:52 [notice] 4560#4836: signal process started
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:43:25 [alert] 6584#7540: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:43:25 [alert] 2656#3928: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:43:25 [error] 2656#816: init_worker_by_lua_file error: cannot open ./../lua/example/init_worker.lua: No such file or directory
+2017/11/24 16:43:39 [error] 2656#816: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:43:55 [error] 2656#816: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:44:15 [error] 2656#816: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:46:55 [alert] 6788#7072: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:46:55 [notice] 6788#7072: signal process started
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:47:00 [alert] 8524#4608: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:47:00 [alert] 8872#7404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:47:00 [error] 8872#6168: init_worker_by_lua_file error: cannot open ./../lua/example/lua/init_worker.lua: No such file or directory
+2017/11/24 16:47:05 [error] 8872#6168: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:47:06 [error] 8872#6168: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:47:06 [error] 8872#6168: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:47:06 [error] 8872#6168: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:49:21 [alert] 7540#9092: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:49:21 [notice] 7540#9092: signal process started
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:49:24 [alert] 9908#9648: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:49:25 [alert] 1216#612: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:49:34 [error] 1216#5076: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:49:35 [error] 1216#5076: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:49:35 [error] 1216#5076: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:49:35 [error] 1216#5076: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:49:35 [error] 1216#5076: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:50:55 [alert] 5708#8128: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:50:55 [notice] 5708#8128: signal process started
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:50:58 [alert] 5636#2376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:50:58 [alert] 9204#5756: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:51:02 [error] 9204#6976: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:51:02 [error] 9204#6976: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:51:02 [error] 9204#6976: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:51:03 [error] 9204#6976: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:53:51 [alert] 9468#2348: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:53:51 [notice] 9468#2348: signal process started
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:53:53 [alert] 6440#6624: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 16:53:54 [alert] 4600#9912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 16:54:03 [error] 4600#10100: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:01:07 [alert] 6908#5476: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:01:07 [notice] 6908#5476: signal process started
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:01:09 [alert] 3208#3764: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:01:09 [alert] 7048#2148: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:03:38 [alert] 1012#4664: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:03:38 [emerg] 1012#4664: "location" directive is not allowed here in ./conf/nginx.conf:70
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:03:47 [alert] 9908#5004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:03:47 [notice] 9908#5004: signal process started
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:04:38 [alert] 9536#1088: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:04:38 [emerg] 9536#1088: "location" directive is not allowed here in ./conf/nginx.conf:71
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:04:57 [alert] 8760#10180: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:04:57 [alert] 7112#8388: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:05:20 [alert] 8892#8492: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:05:20 [notice] 8892#8492: signal process started
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:05:29 [alert] 6220#4980: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:05:29 [alert] 5272#9056: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:06:32 [alert] 7632#3896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:06:32 [notice] 7632#3896: signal process started
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:06:34 [alert] 9056#7288: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:06:35 [alert] 9356#6292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:10:36 [alert] 4640#5564: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:10:36 [notice] 4640#5564: signal process started
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:10:39 [alert] 3716#1276: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:10:39 [alert] 6216#6036: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:16:24 [alert] 1200#9356: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:16:24 [notice] 1200#9356: signal process started
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:16:27 [alert] 8464#2004: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:16:27 [alert] 7924#7652: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:19:03 [alert] 1284#6896: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:19:03 [notice] 1284#6896: signal process started
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:19:07 [alert] 2516#10364: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:19:07 [alert] 3452#8728: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:19:43 [error] 3452#11112: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/"
+2017/11/24 17:19:46 [error] 3452#11112: *1 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:46 [error] 3452#11112: *2 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:46 [error] 3452#11112: *3 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:46 [error] 3452#11112: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:46 [error] 3452#11112: *6 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:46 [error] 3452#11112: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:51 [error] 3452#11112: *7 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:51 [error] 3452#11112: *6 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:51 [error] 3452#11112: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:51 [error] 3452#11112: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:51 [error] 3452#11112: *2 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:19:51 [error] 3452#11112: *1 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:20:16 [alert] 6384#10096: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:20:16 [notice] 6384#10096: signal process started
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:20:22 [alert] 10184#9916: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:20:22 [alert] 10096#6384: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:20:25 [error] 10096#7108: *1 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:25 [error] 10096#7108: *3 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:25 [error] 10096#7108: *1 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:25 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:25 [error] 10096#7108: *3 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:25 [error] 10096#7108: *1 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:26 [error] 10096#7108: *1 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:26 [error] 10096#7108: *3 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:26 [error] 10096#7108: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:26 [error] 10096#7108: *5 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:26 [error] 10096#7108: *6 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:26 [error] 10096#7108: *6 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:27 [error] 10096#7108: *6 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:27 [error] 10096#7108: *5 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:27 [error] 10096#7108: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:27 [error] 10096#7108: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:27 [error] 10096#7108: *1 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:27 [error] 10096#7108: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *7 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *1 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *3 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *5 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *6 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *6 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *5 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *5 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:29 [error] 10096#7108: *6 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *6 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *5 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *1 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *7 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *1 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *3 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *5 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:30 [error] 10096#7108: *6 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *6 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *5 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *1 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *7 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *1 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *3 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *5 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *6 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *4 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *6 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *5 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *3 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:31 [error] 10096#7108: *1 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *1 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *3 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *3 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *1 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *1 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *3 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *3 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *1 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *4 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:32 [error] 10096#7108: *5 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *6 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *7 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *6 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *5 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *4 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *4 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:33 [error] 10096#7108: *5 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *5 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *4 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *6 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *5 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *7 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *1 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *5 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:20:34 [error] 10096#7108: *5 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:00 [error] 10096#7108: *5 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:00 [error] 10096#7108: *1 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:00 [error] 10096#7108: *7 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:00 [error] 10096#7108: *6 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:00 [error] 10096#7108: *4 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:00 [error] 10096#7108: *3 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:01 [error] 10096#7108: *3 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:01 [error] 10096#7108: *4 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:01 [error] 10096#7108: *6 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:01 [error] 10096#7108: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:01 [error] 10096#7108: *7 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:01 [error] 10096#7108: *1 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *1 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *7 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *1 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *6 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *7 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *6 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *3 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *1 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *4 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *5 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *5 CreateFile() "./html/il/inline.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/inline.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *4 CreateFile() "./html/il/polyfills.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/polyfills.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *1 CreateFile() "./html/il/scripts.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/scripts.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *3 CreateFile() "./html/il/styles.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/styles.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *6 CreateFile() "./html/il/vendor.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/vendor.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:21:02 [error] 10096#7108: *7 CreateFile() "./html/il/main.bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /il/main.bundle.js HTTP/1.1", host: "openresty.jd.com", referrer: "http://openresty.jd.com/il"
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:27:27 [alert] 7220#2512: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:27:27 [notice] 7220#2512: signal process started
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:46:41 [alert] 7924#6220: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:46:41 [notice] 7924#6220: signal process started
+2017/11/24 17:46:41 [error] 7924#6220: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:46:44 [alert] 9876#6960: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/24 17:46:45 [alert] 3264#7456: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/24 17:46:55 [error] 3264#11212: *1 CreateFile() "./html/sign/getSignTime.htm" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /sign/getSignTime.htm?date=Fri%20Nov%2024%202017%2017:46:55%20GMT+0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&callback=jQuery819866&_=1511516815150 HTTP/1.1", host: "localhost", referrer: "http://localhost/jd"
+2017/11/24 17:46:55 [error] 3264#11212: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/jd"
