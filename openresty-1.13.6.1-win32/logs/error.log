@@ -1538,3 +1538,25 @@
 2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
 2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
 2017/11/27 17:22:04 [notice] 10624#10512: signal process started
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:50:41 [alert] 6576#10020: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in D:\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:50:41 [alert] 9936#6012: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:51:56 [error] 9936#1508: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/il/"
+2017/11/27 17:52:36 [error] 9936#1508: *8 CreateFile() "./html/il/11" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /il/11 HTTP/1.1", host: "localhost"
