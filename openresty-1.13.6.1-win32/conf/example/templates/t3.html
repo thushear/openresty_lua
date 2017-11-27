@@ -1,0 +1,37 @@
+{(header.html)}
+
+<body>
+   
+      {# name #}  
+       姓名<br/>
+       name:   {* string.upper(name) *}<br/>  
+       {# 转义变量输出 #}  
+      简介：{{description}}<br/>  
+      {# 可以做一些运算 #}  
+      年龄: {* age + 1 *}<br/>  
+      {# 循环输出 #}  
+      爱好：<br/>    
+      {% for i, v in ipairs(hobby) do %}  
+         {% if i > 1 then %}，{% end %}  
+         {* v *}  
+      {% end %}<br/>  
+  
+      成绩：  <br/>  
+      {% local i = 1; %}  
+      {% for k, v in pairs(score) do %}  
+         {% if i > 1 then %}，{% end %}  
+         {* k *} = {* v *}  
+         {% i = i + 1 %}  
+      {% end %}<br/>  
+      成绩2：  <br/>  
+      {% for i = 1, #score2 do local t = score2[i] %}  
+         {% if i > 1 then %}，{% end %}  
+          {* t.name *} = {* t.score *}  
+      {% end %}<br/>  
+      {# 中间内容不解析 #}  
+      
+      {-raw-}{(file)}{-raw-}  
+     
+
+</body>
+{(footer.html)}  

@@ -643,3 +643,898 @@
 2017/11/24 18:10:04 [error] 10896#5284: *61 CreateFile() "./html/portal/getUserInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /portal/getUserInfo HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
 2017/11/24 18:10:04 [error] 10896#5284: *61 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
 2017/11/24 18:10:20 [error] 10896#5284: *61 CreateFile() "./html/portal/getUserInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /portal/getUserInfo HTTP/1.1", host: "ysc.jd.com", referrer: "http://ysc.jd.com/il/overall-analysis"
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 09:54:01 [alert] 5764#6236: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 09:54:02 [alert] 3656#5876: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 09:54:14 [error] 3656#3032: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/11/27 09:54:27 [error] 3656#3032: *1 CreateFile() "./html/sign/getSignTime.htm" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /sign/getSignTime.htm?date=Mon%20Nov%2027%202017%2009:54:27%20GMT+0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&callback=jQuery8781051&_=1511747667732 HTTP/1.1", host: "localhost", referrer: "http://localhost/jd"
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 09:55:47 [alert] 5964#6632: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 09:55:47 [notice] 5964#6632: signal process started
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 09:55:53 [alert] 4292#4716: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 09:55:53 [alert] 1808#7080: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:01:36 [alert] 4988#3940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:01:36 [notice] 4988#3940: signal process started
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:01:39 [alert] 1152#7940: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:01:39 [alert] 7500#7420: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:11:19 [alert] 1792#8172: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:11:19 [notice] 1792#8172: signal process started
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:11:22 [alert] 6472#7152: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:11:22 [alert] 7472#6812: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 10:31:34 [alert] 8716#8464: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 10:31:34 [notice] 8716#8464: signal process started
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 14:57:12 [alert] 5824#9404: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 14:57:12 [alert] 7196#5872: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:14:42 [alert] 10560#10844: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 15:14:42 [notice] 10560#10844: signal process started
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:14:45 [alert] 10432#6912: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:73
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:79
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:85
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:91
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:96
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:137
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:14:45 [alert] 3872#5292: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:154
+2017/11/27 15:15:28 [error] 3872#9392: *2 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:16:02 [alert] 8988#11116: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:16:02 [notice] 8988#11116: signal process started
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:16:05 [alert] 9816#10724: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:16:05 [alert] 9756#10264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:16:08 [error] 9756#10664: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:16:09 [error] 9756#10664: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:16:14 [error] 9756#10664: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:20:11 [alert] 9172#10376: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:20:11 [notice] 9172#10376: signal process started
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:20:13 [alert] 7600#9264: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:20:13 [alert] 4968#6576: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:20:17 [error] 4968#6664: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:20:17 [error] 4968#6664: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/lua"
+2017/11/27 15:20:18 [error] 4968#6664: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:20:54 [alert] 7996#10120: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:20:54 [notice] 7996#10120: signal process started
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:20:59 [alert] 8268#6472: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:20:59 [notice] 8268#6472: signal process started
+2017/11/27 15:20:59 [error] 8268#6472: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:21:01 [alert] 9288#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:74
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:80
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:86
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:92
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:97
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:138
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:146
+2017/11/27 15:21:01 [alert] 3412#8308: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:21:05 [error] 3412#6900: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:21:06 [error] 3412#6900: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:21:07 [error] 3412#6900: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:21:07 [error] 3412#6900: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:21:08 [error] 3412#6900: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:21:47 [alert] 6240#9084: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:21:47 [notice] 6240#9084: signal process started
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:21:56 [alert] 6948#3832: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:21:56 [alert] 8220#1720: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:29:32 [emerg] 5292#8996: unexpected "}" in ./conf/../lua/example/example.conf:9
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:29:40 [alert] 8868#10316: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:29:40 [notice] 8868#10316: signal process started
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:29:43 [alert] 10432#8212: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:29:43 [alert] 2344#8688: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:29:49 [error] 2344#2432: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/helloworld2"
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:30:14 [alert] 7840#4820: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:30:14 [notice] 7840#4820: signal process started
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:31:03 [alert] 9560#10604: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:31:03 [notice] 9560#10604: signal process started
+2017/11/27 15:31:03 [error] 9560#10604: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:31:07 [alert] 8720#11200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:31:07 [alert] 6492#9200: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:33:09 [alert] 10128#10568: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:33:09 [notice] 10128#10568: signal process started
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:33:12 [alert] 4588#11060: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:81
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:87
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:93
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:99
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:104
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:145
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:153
+2017/11/27 15:33:12 [alert] 1444#3156: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:162
+2017/11/27 15:33:18 [error] 1444#9760: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:33:46 [alert] 6048#9972: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:33:46 [emerg] 6048#9972: unexpected ";" in ./conf/../lua/example/example.conf:10
+2017/11/27 15:34:17 [alert] 11252#10860: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:34:17 [emerg] 11252#10860: unexpected ";" in ./conf/../lua/example/example.conf:10
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:34:28 [alert] 8268#4760: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:34:28 [notice] 8268#4760: signal process started
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:35:37 [alert] 7256#4320: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:35:37 [alert] 3320#10336: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:35:39 [error] 3320#10816: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:35:40 [error] 3320#10816: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:35:41 [error] 3320#10816: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:35:42 [error] 3320#10816: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:35:44 [error] 3320#10816: *3 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:07 [error] 3320#10816: *5 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:08 [error] 3320#10816: *5 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:08 [error] 3320#10816: *5 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:12 [emerg] 7840#8344: "lua_package_path" directive is duplicate in ./conf/nginx.conf:40
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:38:40 [alert] 9532#11040: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:38:40 [notice] 9532#11040: signal process started
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:38:47 [alert] 9392#10680: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:7
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:83
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:89
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:95
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:101
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:106
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:147
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:155
+2017/11/27 15:38:47 [alert] 9852#7480: lua_code_cache is off; this will hurt performance in ./conf/../lua/example/example.conf:164
+2017/11/27 15:38:50 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:50 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:51 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:52 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:52 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:38:53 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:39:03 [error] 9852#10788: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:41:25 [alert] 8496#7120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:41:25 [notice] 8496#7120: signal process started
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:41:29 [alert] 9444#11168: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:41:29 [alert] 3868#10992: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:41:40 [error] 3868#9048: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:41:40 [error] 3868#9048: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:41:41 [error] 3868#9048: *1 CreateFile() "./html/hellow2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:41:58 [alert] 10196#6488: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:41:58 [notice] 10196#6488: signal process started
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:42:03 [alert] 8348#9288: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:42:03 [alert] 8372#10244: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:43:42 [alert] 8368#3048: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:43:42 [notice] 8368#3048: signal process started
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:43:45 [alert] 2580#4424: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:43:46 [alert] 8268#10028: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:43:49 [error] 8268#2956: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:43:50 [error] 8268#2956: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:43:50 [error] 8268#2956: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:43:51 [error] 8268#2956: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:43:51 [error] 8268#2956: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:43:52 [error] 8268#2956: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:45:26 [alert] 8876#10120: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:45:26 [notice] 8876#10120: signal process started
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:45:28 [alert] 5896#8224: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:45:29 [alert] 10928#8240: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:45:31 [error] 10928#7464: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:45:32 [error] 10928#7464: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:45:33 [error] 10928#7464: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:45:33 [error] 10928#7464: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:45:34 [error] 10928#7464: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:47:59 [alert] 1428#9100: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:47:59 [notice] 1428#9100: signal process started
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:48:02 [alert] 10244#8244: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:48:03 [alert] 9688#9288: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:48:06 [error] 9688#6724: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:48:06 [error] 9688#6724: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:48:07 [error] 9688#6724: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:48:08 [error] 9688#6724: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:49:00 [alert] 9984#7772: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:49:00 [notice] 9984#7772: signal process started
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:49:03 [alert] 9172#1444: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:49:03 [alert] 8848#6468: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:49:07 [error] 8848#1596: *1 failed to load external Lua file "./../hello.lua": cannot open ./../hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:49:08 [error] 8848#1596: *1 failed to load external Lua file "./../hello.lua": cannot open ./../hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:49:10 [error] 8848#1596: *1 failed to load external Lua file "./../hello.lua": cannot open ./../hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:50:35 [alert] 6344#1080: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:50:35 [notice] 6344#1080: signal process started
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:50:38 [alert] 10092#10976: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:50:38 [alert] 7248#892: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:50:41 [error] 7248#1004: *1 failed to load external Lua file ".//hello.lua": cannot open .//hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:50:41 [error] 7248#1004: *1 failed to load external Lua file ".//hello.lua": cannot open .//hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:51:10 [alert] 4876#8692: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:51:10 [notice] 4876#8692: signal process started
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:51:17 [alert] 8324#4748: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:51:17 [alert] 2960#8284: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:51:20 [error] 2960#5108: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:51:20 [error] 2960#5108: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:51:21 [error] 2960#5108: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:51:21 [error] 2960#5108: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:51:21 [error] 2960#5108: *1 failed to load external Lua file "./hello.lua": cannot open ./hello.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /hellow2 HTTP/1.1", host: "localhost"
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:52:01 [alert] 9032#8396: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:52:01 [notice] 9032#8396: signal process started
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:52:07 [alert] 10880#10840: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 15:52:08 [alert] 6556#532: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 17:00:53 [alert] 8772#9136: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:00:53 [notice] 8772#9136: signal process started
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 17:00:56 [alert] 8528#5872: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:7
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:83
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:89
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:95
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:101
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:106
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:147
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:155
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/example/example.conf:164
+2017/11/27 17:00:56 [alert] 9568#6492: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:01:10 [error] 9568#8608: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/hellow2"
+2017/11/27 17:02:38 [error] 9568#8608: *3 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 17:03:49 [error] 9568#8608: *5 CreateFile() "./html/lua_rewrite_1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua_rewrite_1 HTTP/1.1", host: "localhost"
+2017/11/27 17:03:55 [error] 9568#8608: *5 CreateFile() "./html/lua_rewrite_1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua_rewrite_1?jump=1 HTTP/1.1", host: "localhost"
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:04:23 [alert] 7196#6672: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:04:23 [notice] 7196#6672: signal process started
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:07:24 [alert] 2072#10664: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:07:24 [notice] 2072#10664: signal process started
+2017/11/27 17:07:24 [error] 2072#10664: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:09:02 [alert] 10280#6112: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:09:02 [notice] 10280#6112: signal process started
+2017/11/27 17:09:02 [error] 10280#6112: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/11/27 17:09:44 [alert] 10832#5960: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:09:44 [notice] 10832#5960: signal process started
+2017/11/27 17:09:44 [error] 10832#5960: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:12:32 [alert] 4264#7796: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:12:32 [alert] 9848#1504: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:12:45 [error] 9848#9860: *1 CreateFile() "./html/lua" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua HTTP/1.1", host: "localhost"
+2017/11/27 17:17:57 [error] 9848#9860: *4 CreateFile() "./html/lua_rewrite_1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua_rewrite_1 HTTP/1.1", host: "localhost"
+2017/11/27 17:18:04 [error] 9848#9860: *4 CreateFile() "./html/lua_rewrite_1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua_rewrite_1?jump=1 HTTP/1.1", host: "localhost"
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:20:17 [alert] 8476#6648: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:20:17 [notice] 8476#6648: signal process started
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:20:23 [alert] 6540#7908: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:20:23 [alert] 8052#8708: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:20:32 [error] 8052#9692: *1 CreateFile() "./html/lua_request" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lua_request?a=1 HTTP/1.1", host: "localhost"
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:7
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:83
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:89
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:95
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:101
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:106
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:147
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:155
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in D:\sourcejd\openresty_lua\openresty-1.13.6.1-win32\conf\example\example.conf:164
+2017/11/27 17:22:04 [alert] 10624#10512: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:89
+2017/11/27 17:22:04 [notice] 10624#10512: signal process started
